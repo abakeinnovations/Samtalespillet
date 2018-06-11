@@ -12,3 +12,7 @@ alt="IMAGE ALT TEXT HERE" width="240" height="180" border="10" /></a>
 ## Teknisk forklaring
 Spillet starter med en tilstand hvor det lyser svakt i alle led-diodene. Dette signaliserer at spillet er klart til start. Bruker 1 scanner et spørsmålskort, og får feedback gjennom et lilla lys. Alle diodene slukkes, én etter én. Spillet venter nå på at bruker 2 skal registrere sitt svaralternativskort. Det skapes spenning ved at 3 lysdioder ”faller” ned fra toppen av led-stripen, til bunnen. Er svaret galt, blinker det rødt to ganger. Er derimot svaret riktig, blinker det grønt lys to ganger, og 3 dioder som indikerer skår, lyser opp. Ved hvert riktige svar, lyser nye 3 dioder opp. Har man svart riktig på 10 spørsmål, blinker alle led-stripens dioder. Spillet resettes etter noen sekunder, og er klart til å spilles på ny.
 
+## Bygget med
+[MFRC522 RFID Library](https://github.com/miguelbalboa/rfid) - Brukt for å skrive til og registrere kort.
+[FastLED Library](https://github.com/FastLED/FastLED) - Brukt for å lage lysmønstre.
+
