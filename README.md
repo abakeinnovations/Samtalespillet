@@ -14,5 +14,6 @@ Spillet starter med en tilstand hvor det lyser svakt i alle led-diodene. Dette s
 
 ## Bygget med
 [MFRC522 RFID Library](https://github.com/miguelbalboa/rfid) - Brukt for å skrive til og registrere kort.
+
 [FastLED Library](https://github.com/FastLED/FastLED) - Brukt for å lage lysmønstre.
 
